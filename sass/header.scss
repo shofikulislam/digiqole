@@ -1,0 +1,68 @@
+/*==================================================  
+                    Top Bar
+================================================== */
+.topbar.topbar-gray {
+    background-color: whitesmoke;
+}
+
+
+.trending-slide {
+    position: relative;
+    padding: 8px 0;
+    .carousel-inner {
+        width: auto;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .post-title {
+        margin: 0;
+        font-size: 13px;
+        font-weight: 400;
+        a {
+            color: #777;
+            -o-transition: 400ms;
+            transition: 400ms;
+            -webkit-transition: 400ms;
+        }
+    }
+}
+
+.trending-title {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 15px 0 0;
+    font-weight: 700;
+    padding: 0 10px 0 0;
+    margin-right: 5px;
+    border-right: 1px solid #dedbdb;
+    background: transparent;
+    color: #222;
+    i {
+        color: #fc4a00;
+    }
+     
+}
+
+.top-info li {
+    color: #777;
+    font-size: 13px;
+    border-right: none;
+    padding-right: 0;
+    i {
+        margin-right: 6px;
+    }
+}
+
+/*==================================================  
+                    header
+================================================== */
+.header-middle-area {
+    padding: 20px 0
+}
+.logo img {
+    width: 100%;
+    max-width: 220px;
+}

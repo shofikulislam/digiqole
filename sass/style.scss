@@ -1,0 +1,161 @@
+/*
+	Template Name: Digiqole
+	Author: Themewinter
+	Author URI: https://themeforest.net/user/tripples
+	Description: Digiqole html template. 
+  Version: 1.0
+
+=====================
+   table of content 
+====================
+
+1.    Typography
+2.    Global Styles
+3.    Top Bar
+4.    Header area
+5.    Slider
+6.    Call to action
+7.    Features
+8.    Facts
+9.    Services
+10.   Project area
+11.   Content area
+12.   Testimonial
+13.   Subscribe area
+14.   News section
+15.   Footer
+16.   Sub Pages
+17.   Contact Us
+18.   News Listing
+19.   News Single
+20.   Sidebar
+21.   Error page
+  
+*/
+
+@import 'base';
+@import 'variable';
+@import 'mixin';
+@import 'header';
+@import 'nav';
+
+/*==================================================  
+                  featured slider
+================================================== */
+
+.main-slider {
+   &.owl-carousel.owl-theme .owl-nav [class*=owl-] {
+      top: 50%;
+      right: 0;
+      width: 34px;
+      height: 40px;
+      line-height: 30px;
+      background: rgba(0, 0, 0, 0.65);
+      color: #fff;
+      opacity: 0;
+   }
+
+   &.owl-carousel.owl-theme .owl-nav [class*=owl-prev] {
+      left: 0;
+   }
+
+   &.owl-theme .owl-nav>[class*=owl-]:hover {
+      background: #ec0000;
+      color: #fff;
+      border: 0;
+   }
+
+   &.owl-theme:hover .owl-nav [class*=owl-] {
+      opacity: 1;
+   }
+   .post-content {
+      padding: 40px 40px 35px 45px;
+      
+         position: relative;
+         bottom: 0;
+         z-index: 99;
+     
+  }
+   .post-title {
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 42px;
+      margin: 8px 0;
+   }
+   .item {
+      min-height: 640px;
+      background-position: 50% 50%;
+      -webkit-background-size: cover;
+      background-size: cover;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -ms-border-radius: 5px;
+      overflow: hidden;
+  }
+   .owl-dots {
+   position: absolute;
+   left: 50px;
+   top: 50%;
+   padding: 0;
+   text-align: left;
+   width: 20px;
+   -webkit-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
+
+ .owl-dots .owl-dot {
+   display: block;
+}
+
+ .owl-dots .owl-dot:first-child {
+   padding-left: 0;
+}
+
+ .owl-dots .owl-dot.active span {
+   width: 8px;
+   height: 20px;
+   background: #fc4a00;
+}
+.post-overaly-style {
+   position: absolute;bottom: 0;
+}
+.owl-dots {
+   left: 40px;
+   top: 50%
+}
+   
+}
+
+.video-icon {
+   text-align: center;
+   color: #fff;
+   display: block;
+   top: 50%;
+   margin-top: -50px;
+   font-size: 32px;
+   z-index: 1;
+   position: absolute;
+   left: 50%;
+   margin-left: -40px;
+   width: 80px;
+   height: 80px;
+   line-height: 65px;
+   border: 7px solid #fff;
+   display: inline-block;
+   border-radius: 100%;
+   i {
+      margin-left: 5px;
+   }
+}
+
+/*==================================================  
+                   video block
+================================================== */
+
+.full-width-video {
+   .video-icon {
+      background: #fff;
+      color: #fb313b;
+   }
+}

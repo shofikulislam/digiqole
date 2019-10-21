@@ -1,0 +1,46 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+
+@media (min-width: 1200px) {
+
+   /* Header */
+   .navbar-nav li:hover .dropdown-menu {
+      display: block;
+   }
+
+   .navbar-collapse {
+      padding-right: 0;
+   }
+}
+/* Medium Devices, Desktops */
+
+@media (min-width: 992px) and (max-width:1199px) {
+
+   /* Header */
+   .navbar-nav li:hover .dropdown-menu {
+      display: block;
+   }
+
+   ul.navbar-nav>li {
+      padding: 0 6px;
+   }
+
+   ul.navbar-nav>li>a {
+      padding: 0px;
+   }
+
+   ul.navbar-nav>li>a,
+   .dropdown-menu li a {
+      font-size: 12px;
+   }
+
+   .mega-menu-content {
+      max-width: 930px;
+   }
+
+   ul.navbar-nav>.nav-item>.nav-link {
+      padding: 0 12px;
+   }
+}
